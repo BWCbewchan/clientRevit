@@ -1,5 +1,5 @@
 {
-  "homepage": "https://BWCbewchan.github.io/login",
+  "homepage": "https://BWCbewchan.github.io/",
   "name": "autodesk-viewer",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "heroku-postbuild": "npm install && npm run build"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
