@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Main from './pages/Main';
-
-import Home from './pages/Home';
-import Message from './pages/Message/Message';
-import Manager from './pages/Manager/Manager';
-import Map from './pages/Map/Map';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import './App.css';
 import Archive from './pages/Archive/Archive';
 import Calendar from './pages/Calendar/Calendar';
- 
+import Home from './pages/Home';
 import Login from './pages/Login/Login';
-import './App.css';
+import Main from './pages/Main';
+import Manager from './pages/Manager/Manager';
+import Map from './pages/Map/Map';
+import Message from './pages/Message/Message';
 
 class App extends Component {
     render() {
